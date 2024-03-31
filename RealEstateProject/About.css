@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+    
+    :root{
+    --bg-color:#18191A;
+    --bg2-color:#707070;
+    --text-color:#FFDA7F;
+    --t2-color:#F6C33A;
+    --orange-color:#F25D23;
+    }
+    
+    nav{
+    background-color: var(--bg-color);
+    }
+    
+    
+    .link_name,a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500; 
+    }
+    
+    .link_name:hover{
+    color: #FFDA7F;
+    }
+    
+    .link_name a:hover{
+        color: #FFDA7F;
+    }
+    
+    .title_name{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+    }
+    
+    .active{
+    color: #F6C33A;
+    }
+    
+    .menu-bar{
+        display: none;
+    }
+    
+    .sidebar{
+        background-color: #18191A;
+        display: flex;
+    }
+    
+    .sidebar-nav li{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .main-content{
+        width:75%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    
+    .main-content h4{
+        font-size: 1.6em;
+        font-weight: 600;
+        text-shadow: .55px .55px 55px #707070;
+    }
+    
+    .main-content #para-content{
+        font-size: 1em;
+        letter-spacing: .75px;
+        text-align: justify;
+    }
+    
+    .list-items{
+        margin-top: 10px;
+    }
+    .footer{
+        background-color: #18191A;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    
+    .footer .logo{
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .footer p{
+        justify-self: center;
+        align-self: center;
+        color: #fff;
+        font-size: 1em;
+    }
+    
+    .footer .Contact h5{
+        color: #fff;
+        font-size: 1em;
+    }
+    
+    @media screen and (max-width:650px){
+        .navigation{
+            display: none;
+        }
+        .menu-bar{
+            display: block;
+        }
+    }
+    

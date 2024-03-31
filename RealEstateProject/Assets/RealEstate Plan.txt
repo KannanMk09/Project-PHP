@@ -1,0 +1,63 @@
+
+Home
+About
+Seller
+Buyer
+admin
+
+BrokerWay is an Title
+
+about page is content of the websites
+
+seller -->Seller Login,Seller Signup -->Seller AddProperty -->View Property Details 
+
+buyer -->Buyer Login,Buyer SignUp -->Buyer View The Propery Details.
+
+Admin --> Admin Login--> View the SellerDetails,BuyerDetails and Property Details.
+
+other Pages:
+
+1.Forgot password page,Otp Verification.
+
+Total Web Pages:
+
+1.Home Page.  done
+2.About Page. done
+3.Sellor Page. done
+4.Buyer Page. done
+5.Sellor Signup Page. done
+6.Buyer Signup Page. doen
+7.Property View Details.
+8.Admin login.
+9.forgot password Page.
+10.Admin View Total Details.
+
+Sellor AddProperty Details :
+
+Sellor name:
+Sellor Property Location:
+sellor mobile no:
+Sellor Address:
+Type of Property:
+Property Rate:
+property sqft:
+
+
+Buyer Details:
+
+buyer name:
+buyer no:
+buyer location:
+buyer want type property:
+buyer expected rate:
+buyer Property Excepted Location:
+buyer Excepted Sqft:
+
+
+Admin Details:
+
+Buyer Details:
+Sellor Details:
+
+[In table Format]
+
